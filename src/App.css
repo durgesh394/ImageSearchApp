@@ -1,0 +1,47 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+
+/* input button box */
+.sinput{
+    outline: none;
+    border: none;
+
+}
+.searchbox{
+   
+    width :  255px;
+    display: inline;
+    border: 1px solid black;
+}
+.searchbtn{
+    padding: 5px 20px;
+    background-color: #000;
+    color: #fff;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* show image */
+
+.showimg{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 300px;
+}
+.addcaption{
+  width: 300px;
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+.fl{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
